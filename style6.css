@@ -1,0 +1,91 @@
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  nav a:hover {
+    color: #ffcc00; /* Couleur de survol */
+  }
+  
+    
+  body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 20px ;
+    padding: 20px;
+  }
+
+  h2 {
+    color: #333;
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+.contact {
+    margin-bottom: 20px; /* Adjust the spacing between Contact and Social Media sections */
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+.social-media img {
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.img_personnel{
+  width: 30px;
+height: 30px;
+border-radius: 50%;
+}

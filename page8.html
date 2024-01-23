@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quizz sur les animaux</title>
+    <link rel="stylesheet" href="css/style8.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            
+            <ul>
+                <li><img class="img_personnel" src="images/pdf.jpg" alt="photo" width="235" height="240"></li>
+                <li><a href="page1.html">Acceuil</a></li>
+                <li><a href="page2.html">Éducation</a></li>
+                <li><a href="page4.html">Expériences</a></li>
+                <li><a href="page6.html">Études</a></li>
+                <li><a href="page7.html">Passions</a></li>
+                <li><a href="page8.html">Quizz</a></li>
+                <li><a href="page9.html">Contact</a></li>
+                <li><a href="page10.html">Témoignage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <br>
+        <br>
+        <h1>Quiz sur Palestine</h1>
+        <form id="quiz-form">
+            <ol>
+                <li>
+                    <h3>Quelle est la capitale de la Palestine ?</h3>
+                    <label>
+                        <input type="radio" name="q1" value="a"> Jérusalem
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="b"> Ramallah
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="c"> Gaza
+                    </label>
+                </li>
+                <li>
+                    <h3>Quel fleuve traverse la Palestine ?</h3>
+                    <label>
+                        <input type="radio" name="q2" value="a"> Le Nil
+                    </label>
+                    <label>
+                        <input type="radio" name="q2" value="b"> Le Jourdain
+                    </label>
+                    <label>
+                        <input type="radio" name="q2" value="c"> L'Euphrate
+                    </label>
+                </li>
+                <li>
+                    <h3>Quelle mer borde la bande de Gaza ?</h3>
+                    <label>
+                        <input type="radio" name="q3" value="a"> La mer Méditerranée
+                    </label>
+                    <label>
+                        <input type="radio" name="q3" value="b"> La mer Rouge
+                    </label>
+                    <label>
+                        <input type="radio" name="q3" value="c"> La mer Morte
+                    </label>
+                </li>
+                <li>
+                    <h3>Quelle est la religion principale en Palestine ?</h3>
+                    <label>
+                        <input type="radio" name="q4" value="a"> Judaïsme
+                    </label>
+                    <label>
+                        <input type="radio" name="q4" value="b"> Christianisme
+                    </label>
+                    <label>
+                        <input type="radio" name="q4" value="c"> Islam
+                    </label>
+                </li>
+                <li>
+                    <h3>Quel événement historique a conduit à la création de l'État d'Israël et à la Nakba en 1948 ?</h3>
+                    <label>
+                        <input type="radio" name="q5" value="a"> La Déclaration Balfour
+                    </label>
+                    <label>
+                        <input type="radio" name="q5" value="b"> La Guerre des Six Jours
+                    </label>
+                    <label>
+                        <input type="radio" name="q5" value="c"> La Partition de la Palestine
+                    </label>
+                </li>
+                <li>
+                    <h3>Quel est le statut actuel de Jérusalem selon la communauté internationale ?</h3>
+                    <label>
+                        <input type="radio" name="q6" value="a"> Capitale d'Israël
+                    </label>
+                    <label>
+                        <input type="radio" name="q6" value="b"> Capitale de la Palestine
+                    </label>
+                    <label>
+                        <input type="radio" name="q6" value="c"> Ville internationale
+                    </label>
+                </li>
+                <li>
+                    <h3>Quel est le nom de la division territoriale entre la Cisjordanie et la bande de Gaza ?</h3>
+                    <label>
+                        <input type="radio" name="q7" value="a"> Ligne verte
+                    </label>
+                    <label>
+                        <input type="radio" name="q7" value="b"> Frontière bleue
+                    </label>
+                    <label>
+                        <input type="radio" name="q7" value="c"> Zone tampon
+                    </label>
+                </li>
+                <li>
+                    <h3>Quelle organisation représente le peuple palestinien sur la scène internationale ?</h3>
+                    <label>
+                        <input type="radio" name="q8" value="a"> L'OLP (Organisation de libération de la Palestine)
+                    </label>
+                    <label>
+                        <input type="radio" name="q8" value="b"> Hamas
+                    </label>
+                    <label>
+                        <input type="radio" name="q8" value="c"> Fatah
+                    </label>
+                </li>
+                <li>
+                    <h3>Quelle est la principale récolte agricole en Palestine ?</h3>
+                    <label>
+                        <input type="radio" name="q9" value="a"> Olives
+                    </label>
+                    <label>
+                        <input type="radio" name="q9" value="b"> Dattes
+                    </label>
+                    <label>
+                        <input type="radio" name="q9" value="c"> Agrumes
+                    </label>
+                </li>
+                <li>
+                    <h3>Quel événement marque le Jour de la Nakba commémoré par les Palestiniens ?</h3>
+                    <label>
+                        <input type="radio" name="q10" value="a"> La Déclaration Balfour
+                    </label>
+                    <label>
+                        <input type="radio" name="q10" value="b"> La Guerre des Six Jours
+                    </label>
+                    <label>
+                        <input type="radio" name="q10" value="c"> La création de l'État d'Israël en 1948
+                    </label>
+                </li>
+                <!-- Add more questions here -->
+            </ol>
+            <button type="button" onclick="calculateScore()">Valider</button>
+        </form>
+        <div id="result" style="display: none;">
+            <h2>Votre note est <span id="score"></span>/10</h2>
+            <h3>Réponses correctes :</h3>
+            <ul id="correct-answers"></ul>
+        </div>
+    </div>
+    <script src="JS/quiz.js"></script>
+   
+</body>
+<footer>
+    <div class="contact">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:yessinejmal3@gmail.com">yessinejmal3@gmail.com</a></p>
+    </div>
+
+    <div class="social-media">
+        <h3>Réseaux sociaux</h3>
+        <a href="https://www.facebook.com/yessine.jmal.188" target="_blank">
+            <img src="images/Facebook-logo-png.png" alt="Facebook" width="30" height="30"></a>
+        <a href="https://www.instagram.com/yessine_jmal/" target="_blank">
+            <img src="images/instagram-logo.png" alt="Instagram" width="30" height="30"></a>
+        <a href="https://www.linkedin.com/in/yassine-djemal-06666b243" target="_blank">
+            <img src="images/linkedin.png" alt="LinkedIn" width="30" height="30"></a>
+    </div>
+</footer>
+</html>

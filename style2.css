@@ -1,0 +1,106 @@
+article {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+article img {
+    float: right;
+    margin: 10px 10px 10px 10px;
+    width: 50%;
+    height: 50%;
+}
+
+article table {
+    margin: auto;
+    padding: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 100%; /* Ajout pour assurer que la table occupe 100% de la largeur de l'article */
+    border-collapse: collapse; /* Ajout pour améliorer l'apparence de la bordure de la table */
+}
+
+article td {
+    border: 1px solid #dddddd; /* Ajout d'une bordure à chaque cellule de la table */
+    padding: 8px;
+    text-align: left;
+}
+
+article h1 {
+    color: #333; /* Couleur du texte pour les titres */
+}
+
+hr {
+    border: 1px solid #dddddd; /* Ajout d'une bordure pour la ligne horizontale */
+}
+
+main {
+    text-align: justify; /* Ajout de la justification du texte dans la section principale */
+}
+
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  nav a:hover {
+    color: #ffcc00; /* Couleur de survol */
+  }
+  .img_personnel{
+    width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.contact {
+    margin-bottom: 20px; /* Adjust the spacing between Contact and Social Media sections */
+}
+
+
+
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+.social-media img {
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

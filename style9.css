@@ -1,0 +1,84 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+ 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+nav a:hover {
+  color: #ffcc00; /* Couleur de survol */
+}
+.img_personnel{
+  width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.contact {
+  margin-bottom: 20px; /* Adjust the spacing between Contact and Social Media sections */
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #ffcc00;
+}
+
+.social-media img {
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

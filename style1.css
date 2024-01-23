@@ -1,0 +1,101 @@
+*{margin:0px;}
+
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  nav a:hover {
+    color: #ffcc00; /* Couleur de survol */
+  }
+  
+  section {
+    padding: 200px 50px; /* Adjust the values for a better balance */
+
+    background: #161415 url('C:/Users/LENOVO/Desktop/Projet web/images/photo.jpg') no-repeat top center ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+   
+ 
+
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    margin: 10px;
+}
+
+.contact {
+    margin-bottom: 20px; /* Adjust the spacing between Contact and Social Media sections */
+}
+
+footer h3 {
+    font-size: 1.2em;
+}
+
+footer p {
+    margin-top: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+.social-media img {
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+
+.about{
+  background-color: rgb(143, 127, 107);   
+   }
+
+.img_personnel{
+    width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
